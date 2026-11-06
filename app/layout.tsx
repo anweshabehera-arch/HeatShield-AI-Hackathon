@@ -5,20 +5,15 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'HeatShield AI · Recovery decisions for extreme heat',
   description: 'Real-time heat guidance for the people who keep our cities moving.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
         url: '/icon.svg',
         type: 'image/svg+xml',
+      },
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
       },
     ],
     apple: '/apple-icon.png',
